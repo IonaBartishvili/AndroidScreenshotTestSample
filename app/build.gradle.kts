@@ -61,7 +61,4 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     screenshotTestImplementation(libs.androidx.ui.tooling)
-
-    implementation(libs.showkase)
-    ksp(libs.showkase.processor)
 }

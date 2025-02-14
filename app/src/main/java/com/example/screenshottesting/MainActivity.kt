@@ -11,8 +11,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.airbnb.android.showkase.annotation.ShowkaseScreenshot
 import com.example.screenshottesting.ui.theme.ScreenshotTestingTheme
 
 class MainActivity : ComponentActivity() {
@@ -40,7 +38,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@ShowkaseComposable(name = "Primary Button", group = "Buttons")
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
