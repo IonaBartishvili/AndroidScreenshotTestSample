@@ -5,5 +5,5 @@ import com.example.screenshottesting.Greeting
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    Greeting("Android")
+    Greeting("Adnroid")
 }
